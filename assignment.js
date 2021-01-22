@@ -49,7 +49,7 @@ function hotelCost(dayStay) {
     return dayCost;
 }
 
-// 3. This is megaFriend function
+// 4. This is megaFriend function
 
 function megaFriend(friendsName) {
     maxLeter = friendsName[0];
