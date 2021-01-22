@@ -15,15 +15,15 @@ function kilometerToMeter(kilometer) {
 // 2. This is budget calculator function. //
 
 function budgetCalculator(watch, phone, laptop) {
-   if((watch >= 0) && (phone >= 0) && (laptop >= 0)){
-    var watchPrice = watch * 50; 
-   var phonePrice = phone * 100;
-   var laptopPrice = laptop * 500;
-   totalPrice = watchPrice + phonePrice + laptopPrice;
-    return totalPrice;
-   }else{
-       return 'Please inter a valid number';
-   }
+    if ((watch >= 0) && (phone >= 0) && (laptop >= 0)) {
+        var watchPrice = watch * 50;
+        var phonePrice = phone * 100;
+        var laptopPrice = laptop * 500;
+        totalPrice = watchPrice + phonePrice + laptopPrice;
+        return totalPrice;
+    } else {
+        return 'Please inter a valid number';
+    }
 }
 
 // 3. Hotel cost function. //
@@ -58,7 +58,6 @@ function megaFriend(friendsName) {
         if (element.length > maxLeter.length) {
             maxLeter = element
         }
-
     }
     return maxLeter;
 }
